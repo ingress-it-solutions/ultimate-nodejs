@@ -1,0 +1,40 @@
+{
+    "name": "@ingress-it-solutions/ultimate-nodejs",
+    "version": "1.9.8",
+    "description": "Real-Time monitoring package for NodeJS Applications",
+    "main": "index.js",
+    "scripts": {
+        "test": "tap",
+        "lint": "eslint ./src",
+        "lint:fix": "eslint --fix ./src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ingress-it-solutions/ultimate-nodejs.git"
+    },
+    "keywords": [
+        "nodejs",
+        "monitoring",
+        "events"
+    ],
+    "author": "Ingress IT Solutions",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ingress-it-solutions/ultimate-nodejs/issues"
+    },
+    "homepage": "https://github.com/ingress-it-solutions/ultimate-nodejs#readme",
+    "devDependencies": {
+        "eslint": "^7.19.0",
+        "eslint-config-standard": "^16.0.2",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.3.1",
+        "eslint-plugin-standard": "^4.1.0",
+        "tap": "^14.11.0"
+    },
+    "dependencies": {
+        "fastify-plugin": "^3.0.0",
+        "require-in-the-middle": "^5.1.0",
+        "shimmer": "^1.2.1"
+    }
+}
