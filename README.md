@@ -6,5 +6,5 @@ A simple code execution monitoring tool, built for Ingress IT Developers.
 Install the latest version by:
 
 ```
-npm install @ingress-it-solutions/ultimate-nodejs --save
+npm install https://github.com/ingress-it-solutions/ultimate-nodejs.git --save
 ```
